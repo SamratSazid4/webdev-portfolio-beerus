@@ -1,12 +1,11 @@
 a{
     text-decoration: none;
 }
-.container {
-    width: 1170px;
-    margin: 0 auto;
+
+
+header{
+    background-color: #FFF8F3;
 }
-
-
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -30,6 +29,9 @@ body{
 .main_menu .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+
 }
 .menu li{
     list-style: none;
@@ -38,7 +40,7 @@ body{
 }
 .menu {
     display: flex;
-    padding-top: 33px;
+    
 }
 .btn1{
     padding-top: 17px;
@@ -53,3 +55,13 @@ body{
     border-radius: 5px;
     
 }
+
+/* banner part start */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 150px;
+}
+
+/* banner part ENd */
