@@ -170,3 +170,132 @@ body{
     
 }
 /* about End */
+/* what start */
+
+.what_text{
+    text-align: center;
+}
+
+.what_text h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+.what_text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 120px 0 120px;
+    margin-top: -20px;
+}
+.what_info{
+    display: flex;
+    gap: 24px;
+    padding: 30px 0 30px 0;
+
+}
+
+.skill{
+    border-radius: 5px;
+    background: #ececec;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.skill h3 {
+    margin: 25px 0 25px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill p{
+    margin: 0 10px 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* what END */
+
+/* resume start */
+.res_top h3{
+    text-align: center;
+    margin:90px 0 90px 0;
+    font-size: 35px;
+    font-weight: 700;
+}
+.res_mid{
+    display: flex;
+    gap: 40px;
+}
+
+.edu h3{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.edu h4{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.edu h5{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+    margin: -30px 0 17px 0;
+}
+.edu p{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 530px;
+}
+
+/*  */
+.exp{
+    padding-left: 100px;
+}
+.exp h3{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.exp h4{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.exp h5{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+    margin: -30px 0 17px 0;
+}
+.exp p{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 530px;
+}
+.res_bot .btn a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #FD6E0A;
+    background-color: #fff;
+    padding: 20px 30px;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+}
+.res_bot .btn a:hover{
+    background-color: #FD6E0A;
+    color: #fff;
+}
+.res_bot .btn{
+    text-align: center;
+    padding: 50px 0;
+}
+/* resume End */
+
