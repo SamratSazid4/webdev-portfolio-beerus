@@ -1,7 +1,10 @@
 a{
     text-decoration: none;
 }
-
+.main{
+    width: 1180px;
+    margin: 0 auto;
+}
 
 header{
     background-color: #FFF8F3;
@@ -61,7 +64,109 @@ body{
 .banner{
     display: flex;
     justify-content: space-between;
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+
+}
+.ban_img img{
+    margin-bottom: -6px;
+}
+.ban_text{
+    padding-left: 50px;
+}
+.ban_text h4{
+    font-size: 45px;
+    margin-top: 130px;
+}
+.ban_text h1{
+    font-size: 85px;
+    margin-top: -57px;
+}
+.ban_text p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 585px;
+    margin-top: -43px;
+}
+
+.ban_btn{
+    display: flex;
+    padding-top: 15px;
+}
+
+.ban_btn .btn2 a{
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    padding: 15px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+
+.ban_btn .btn3{
+    padding-left: 20px;
+}
+.ban_btn .btn3 a{
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    padding: 15px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.ban_btn a:hover{
+    background-color: #FD6E0A;
+    color: #fff !important;
 }
 
 /* banner part ENd */
+
+/* about start */
+
+#about{
+    margin: 130px;
+    
+}
+.about_info{
+    background-color: #FFF8F3;
+    padding: 130px 0 130px 0;
+    margin: 0 -150px 0 -150px;
+    border-radius: 5px;
+    
+}
+.about_top{
+    text-align: center;
+}
+.about_top h3{
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.about_top p{
+    padding: 0 200px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.about_bot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px 0 200px;
+    text-align: center;
+}
+.about_bot p{
+    font-size: 20px;
+    font-weight: 600; 
+}
+.about_bot h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0 -15px 0;
+    
+}
+/* about End */
